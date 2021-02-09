@@ -10,14 +10,15 @@
 .red {
   background-color: red;
   min-height: 100px;
+  border: 1px solid black;
 }
 
 .green {
   background-color: #00b38f;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .margin {
-  margin-top: 5%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0;
 }
