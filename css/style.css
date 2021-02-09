@@ -35,3 +35,18 @@
 .lineum {
   background-color: #66a1cd;
 }
+
+
+@media (max-width: 768px) {
+  .width60 {
+    width: 100%;
+  }
+
+  .width50 {
+    width: 100%;
+  }
+
+  #fix {
+    padding: 0 20%;
+  }
+}
