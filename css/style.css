@@ -22,3 +22,8 @@
   margin: 0 auto;
   padding: 5% 0;
 }
+
+.width50 {
+  width: 50%;
+  margin: 0 auto;
+}
