@@ -1,4 +1,13 @@
-body {
+.blue {
+  background-color: #423189;
+}
+
+.width60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.red {
   background-color: red;
-  height: 100vh;
+  min-height: 100px;
 }
