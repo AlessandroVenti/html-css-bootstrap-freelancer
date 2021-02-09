@@ -11,3 +11,13 @@
   background-color: red;
   min-height: 100px;
 }
+
+.green {
+  background-color: #00b38f;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.margin {
+  margin-top: 5%;
+}
