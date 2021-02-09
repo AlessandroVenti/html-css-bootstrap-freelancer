@@ -27,3 +27,11 @@
   width: 50%;
   margin: 0 auto;
 }
+
+#fix {
+  text-align: left;
+}
+
+.lineum {
+  background-color: #66a1cd;
+}
