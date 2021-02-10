@@ -21,12 +21,6 @@
   z-index: 999;
 }
 
-.red {
-  background-color: red;
-  min-height: 100px;
-  border: 1px solid black;
-}
-
 header .navbar-default {
   border: 0;
 }
@@ -36,9 +30,9 @@ header .navbar-toggle {
 }
 
 header .navbar-default .navbar-brand {
-color: white;
-font-size: 20px;
-margin: 5% 0;
+  color: white;
+  font-size: 20px;
+  margin: 5% 0;
 }
 
 .navbar-default .navbar-nav>li>a {
