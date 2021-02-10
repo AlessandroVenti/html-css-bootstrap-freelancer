@@ -31,6 +31,10 @@ header .navbar-default {
   border: 0;
 }
 
+header .navbar-toggle {
+  margin-top: 33px;
+}
+
 header .navbar-default .navbar-brand {
 color: white;
 font-size: 20px;
@@ -53,6 +57,10 @@ margin: 5% 0;
 
 .green {
   background-color: #00b38f;
+}
+
+.fixedfix {
+  margin-top: 74px;
 }
 
 .margin {
@@ -80,25 +88,54 @@ margin: 5% 0;
 }
 
 #myfix1 {
-  border-top:3px solid black;
-}
-
-#myfix2 {
   color: black;
 }
 
-#myfix3 {
-  border-top:3px solid black;
+.myborder2 {
+  width: 130px;
+  height: 10px;
+  border-top: 3px solid black;
+  margin: auto;
+  display: inline-block;
 }
 
 div.width60 .row img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
+
+.green .container-fluid .row h2{
+  color: white;
+}
+
 .width50 {
   width: 50%;
   margin: 0 auto;
+}
+
+div.width50 .row p {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.green-button {
+  background-color: #00b38f;
+  border: 1px solid white;
+  border-radius: 3px;
+  height: 60px;
+  width: auto;
+  padding: 0 1%;
+  color: white;
+
+}
+
+i.mydownload {
+  font-size: 20px;
+  width: 30px;
 }
 
 #fix {
@@ -107,6 +144,29 @@ div.width60 .row img {
 
 .lineum {
   background-color: #66a1cd;
+}
+
+#myfix2 {
+  color: black;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5% 0;
+}
+
+#submit {
+  margin-top: 30px;
+  background-color: #00b38f;
+  border: 1px solid white;
+  border-radius: 7px;
+  height: 40px;
+  width: auto;
+  padding: 0 1%;
+  color: white;
+
 }
 
 @media (max-width: 1200px) AND (min-width: 768px) {
@@ -142,6 +202,10 @@ div.width60 .row img {
 
   .width50 {
     width: 100%;
+  }
+
+  .fixedfix {
+    margin-top: 104px;
   }
 
   #fix {
