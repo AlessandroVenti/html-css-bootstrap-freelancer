@@ -204,7 +204,7 @@ p span {
 
 }
 
-h6 {
+h6, h5 {
   margin: 2% 0;
   text-align: center;
   color: white;
