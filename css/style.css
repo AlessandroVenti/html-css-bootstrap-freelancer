@@ -65,7 +65,7 @@ margin: 5% 0;
 
 .margin {
   text-align: center;
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 .myborder {
@@ -169,6 +169,30 @@ input {
 
 }
 
+.circle {
+  width: 50px;
+  height: auto;
+  margin-right: 1%;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: inline-block;
+}
+
+.circle span i{
+  display: inline-block;
+  width: 50px;
+  padding: 10px;
+}
+
+footer section p {
+  color: white;
+}
+
+p span {
+  color: green;
+  font-size: 15px;
+}
+
 @media (max-width: 1200px) AND (min-width: 768px) {
 
   .width60 {
@@ -184,6 +208,12 @@ input {
     font-size: 50px;
   }
 
+}
+
+h6 {
+  margin: 2% 0;
+  text-align: center;
+  color: white;
 }
 
 @media (max-width: 768px) {
