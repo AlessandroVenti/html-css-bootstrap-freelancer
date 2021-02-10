@@ -42,6 +42,15 @@ margin: 5% 0;
   line-height: 50px;
 }
 
+.row h1 {
+  font-size: 70px;
+}
+
+.row h3 {
+  font-size: 20px;
+  color: white;
+}
+
 .green {
   background-color: #00b38f;
 }
@@ -49,6 +58,21 @@ margin: 5% 0;
 .margin {
   text-align: center;
   padding: 5% 0;
+}
+
+.myborder {
+  width: 200px;
+  height: 10px;
+  border-top: 3px solid white;
+  margin: auto;
+  display: inline-block;
+}
+
+.row i {
+  width:100px;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
 }
 
 .width50 {
@@ -64,10 +88,35 @@ margin: 5% 0;
   background-color: #66a1cd;
 }
 
+@media (max-width: 1200px) AND (min-width: 768px) {
+
+  .width60 {
+    width: 90%;
+  }
+
+  img {
+    height: 200px;
+    width: auto;
+  }
+
+  .row h1 {
+    font-size: 50px;
+  }
+
+}
 
 @media (max-width: 768px) {
   .width60 {
     width: 100%;
+  }
+
+  img {
+    height:300px;
+    width: auto;
+  }
+
+  .row h1 {
+    font-size: 40px;
   }
 
   .width50 {
