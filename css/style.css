@@ -1,4 +1,5 @@
 * {
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,10 +14,32 @@
   margin: 0 auto;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 .red {
   background-color: red;
   min-height: 100px;
   border: 1px solid black;
+}
+
+header .navbar-default {
+  border: 0;
+}
+
+header .navbar-default .navbar-brand {
+color: white;
+font-size: 20px;
+margin: 5% 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  line-height: 50px;
 }
 
 .green {
